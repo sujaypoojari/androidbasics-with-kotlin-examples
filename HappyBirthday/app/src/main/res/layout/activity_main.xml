@@ -10,6 +10,8 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,31 +21,22 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="sans-serif-black"
         android:text="@string/happy_birthday_vinay"
-        android:textColor="?attr/colorPrimaryDark"
-        android:textSize="24sp"
+        android:textColor="#2F00FF"
+        android:textSize="30sp"
         android:textStyle="bold|italic"
-        android:typeface="monospace"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="468dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="27dp"
         android:text="@string/by_sujay_poojari"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="17sp"
+        android:textColor="#FF0202"
+        android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="683dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
